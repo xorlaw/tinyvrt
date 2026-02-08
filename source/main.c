@@ -10,7 +10,7 @@
 #include <termios.h>
 
 /* Change depending on stuff your running. */
-#define RAM_SIZE 0x20000000 /* 4KB RAM default. */
+#define RAM_SIZE 0x20000000
 #define GUEST_BINARY "imgs/vmlinuz"
 #define GUEST_INITRD "imgs/initramfs.img"
 #define BOOT_PARAM_ADDR 0x10000
